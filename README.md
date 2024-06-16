@@ -7,7 +7,7 @@ Welcome to the Llama-3 Chatbot project! This chatbot allows you to interact with
 - [Installation](#installation)
 - [Usage](#usage)
 - [Examples](#examples)
-- [License](https://github.com/anushkaspatil/llama3-chatbot/LICENSE)
+- [License](https://github.com/anushkaspatil/llama3-chatbot?tab=MIT-1-ov-file)
 - [Acknowledgements](#acknowledgements)
 
 ## Installation
