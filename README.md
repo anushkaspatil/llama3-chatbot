@@ -16,9 +16,25 @@ Welcome to the Llama-3 Chatbot project! This chatbot allows you to interact with
 
 ### Prerequisites
 
-- Python 3.6 or higher
+- Python 3.8 or higher
 - `ollama` library
 - Downlaod and install `ollama` from the official website as per your operating system: https://ollama.com/download/windows
+
+### Llama-3 setup
+- Open the terminal and change the directory where Ollama is located (C:OS drive)
+- Download the llama3 model on the local system
+  ```sh
+  ollama pull llama3
+  ```
+- Lists all the models downloaded in the local system (4.7 GB)
+  ```sh
+  ollama list
+  ```
+- Run the model
+  ```sh
+  ollama run llama3:latest
+  ```
+  
 
 ### Steps
 
