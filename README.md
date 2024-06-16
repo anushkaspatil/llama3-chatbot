@@ -7,8 +7,6 @@ Welcome to the Llama-3 Chatbot project! This chatbot allows you to interact with
 - [Installation](#installation)
 - [Usage](#usage)
 - [Examples](#examples)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
@@ -34,13 +32,17 @@ Welcome to the Llama-3 Chatbot project! This chatbot allows you to interact with
   ```sh
   ollama run llama3:latest
   ```
+- Serving llama locally
+  ```sh
+  ollama serve
+  ```
   
 
 ### Steps
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/llama3-chatbot.git
+    git clone https://github.com/anushkaspatil/llama3-chatbot.git
     cd llama3-chatbot
     ```
 
@@ -61,20 +63,42 @@ You can choose between two methods to run the chatbot: synchronous and asynchron
 
 ### Synchronous Method
 
-The synchronous method is straightforward but might be slower due to blocking calls.
+The synchronous method is straightforward is slower due to the blocking calls.
+To start the chat with the synchronous method, install and import the dependencies and run the file chat.py
 
-To start the chat with the synchronous method, run:
+#### Features
 
-```sh
-python sync_chatbot.py
+- Real-time streaming of responses from the Llama model
+- Infinite loop for continuous interaction
 
-llama3-chatbot/
-│
-├── async_chatbot.py    # Asynchronous chatbot implementation
-├── sync_chatbot.py     # Synchronous chatbot implementation
-├── README.md           # Project README file
-├── LICENSE             # Project license file
-├── venv/               # Virtual environment directory (optional)
-│
-└── requirements.txt    # Required Python packages
+1. **Run the chatbot**:
+  ```sh
+  python chat.py
+  ```
+2. **Interact with the chatbot**:
+    - Enter your messages when prompted.
+    - The chatbot will provide responses from the Llama model.
+  
+### Asynchronous Method
+
+This method streams responses from a Llama model using the `AsyncClient`. The chatbot continuously prompts the user for input and streams the responses in real-time.
+`AsyncClient` from Ollama is required.
+
+#### Features
+
+- Asynchronous operation using `asyncio`
+- Real-time streaming of responses from the Llama model
+- Infinite loop for continuous interaction
+
+1. **Run the chatbot**:
+    ```bash
+    python updated_chat.py
+    ```
+
+2. **Interact with the chatbot**:
+    - Enter your messages when prompted.
+    - The chatbot will stream responses from the Llama model.
+
+
+
 
