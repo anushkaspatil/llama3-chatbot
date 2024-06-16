@@ -37,7 +37,6 @@ Welcome to the Llama-3 Chatbot project! This chatbot allows you to interact with
   ollama serve
   ```
   
-
 ### Steps
 
 1. Clone the repository:
@@ -56,6 +55,7 @@ Welcome to the Llama-3 Chatbot project! This chatbot allows you to interact with
     ```sh
     pip install ollama
     ```
+    
 
 ## Usage
 
@@ -98,9 +98,20 @@ This method streams responses from a Llama model using the `AsyncClient`. The ch
 2. **Interact with the chatbot**:
     - Enter your messages when prompted.
     - The chatbot will stream responses from the Llama model.
+  
+By following these steps and guidelines, you'll be well-equipped to embark on your LLM journey using Llama-3. Happy coding!
+
 
 ## **Examples**
+These are a few screenshotes attached of the working chatbot for reference.
 
+1.
+![Screenshot (312)](https://github.com/anushkaspatil/llama3-chatbot/assets/103093836/569693d1-b0fe-4f12-ada2-04ec8b5149d8)
+
+
+
+2.
+![Screenshot (311)](https://github.com/anushkaspatil/llama3-chatbot/assets/103093836/ba3c156b-6d13-47d3-b7e0-37965433e6fb)
 
 
 ## **Resources**
