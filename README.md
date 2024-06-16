@@ -1,6 +1,6 @@
 # Llama-3 Chatbot
 
-Welcome to the Llama-3 Chatbot project! This chatbot allows you to interact with the Llama-3 model via a simple command-line interface. Type your messages, and receive responses from Llama-3.
+Welcome to the Llama-3 Chatbot project! This chatbot allows you to interact with the Llama-3 model via a simple command-line interface on your local system. Type your messages, and receive responses from Llama-3.
 
 ## Table of Contents
 
