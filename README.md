@@ -1,4 +1,4 @@
-# Llama-3 chatbot on local system using Olama
+# Llama-3 Chatbot
 
 Welcome to the Llama-3 Chatbot project! This chatbot allows you to interact with the Llama-3 model via a simple command-line interface. Type your messages, and receive responses from Llama-3.
 
@@ -6,9 +6,11 @@ Welcome to the Llama-3 Chatbot project! This chatbot allows you to interact with
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Example](#example)
+- [Examples](#examples)
+- [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 ## Installation
 
@@ -16,6 +18,7 @@ Welcome to the Llama-3 Chatbot project! This chatbot allows you to interact with
 
 - Python 3.6 or higher
 - `ollama` library
+- Downlaod and install `ollama` from the official website as per your operating system: https://ollama.com/download/windows
 
 ### Steps
 
@@ -38,7 +41,24 @@ Welcome to the Llama-3 Chatbot project! This chatbot allows you to interact with
 
 ## Usage
 
-To start the chat with Llama-3, run the following command:
+You can choose between two methods to run the chatbot: synchronous and asynchronous.
+
+### Synchronous Method
+
+The synchronous method is straightforward but might be slower due to blocking calls.
+
+To start the chat with the synchronous method, run:
 
 ```sh
-python chatbot.py
+python sync_chatbot.py
+
+llama3-chatbot/
+│
+├── async_chatbot.py    # Asynchronous chatbot implementation
+├── sync_chatbot.py     # Synchronous chatbot implementation
+├── README.md           # Project README file
+├── LICENSE             # Project license file
+├── venv/               # Virtual environment directory (optional)
+│
+└── requirements.txt    # Required Python packages
+
