@@ -7,8 +7,8 @@ Welcome to the Llama-3 Chatbot project! This chatbot allows you to interact with
 - [Installation](#installation)
 - [Usage](#usage)
 - [Examples](#examples)
-- [License](https://github.com/anushkaspatil/llama3-chatbot?tab=MIT-1-ov-file)
-- [Acknowledgements](#acknowledgements)
+- [Resources](#resources)
+- [License](#license)
 
 ## Installation
 
@@ -99,6 +99,18 @@ This method streams responses from a Llama model using the `AsyncClient`. The ch
     - Enter your messages when prompted.
     - The chatbot will stream responses from the Llama model.
 
+## **Examples**
+
+
+
+## **Resources**
+1. [Official Doucumentation Meta Llama](https://llama.meta.com/docs/get-started/)
+2. [Reference Article - Beginner Friendly](https://www.datacamp.com/tutorial/run-llama-3-locally)
+3. [YouTube video - 1st half](https://www.youtube.com/watch?v=uxXxXaMpn4M&t=498s)
+   
+
+## **License**
+This project is licensed under the [MIT License](LICENSE).
 
 
 
