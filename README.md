@@ -1,1 +1,1 @@
-# llama3 chatbot on local system using Olama
+# Llama3 chatbot on local system using Olama
