@@ -15,7 +15,7 @@ def chat_with_llama3():
 
 def send_to_llama3(user_input):
     llama_response = ollama.chat(
-    model="llama3",
+    model="llama3.2:3b",
     messages=[
         {
             "role": "user",
@@ -28,5 +28,6 @@ def send_to_llama3(user_input):
 
 # Start the chat
 chat_with_llama3()
+
 
  
