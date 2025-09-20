@@ -10,7 +10,7 @@ async def chat(user_input):
         "content": user_input
     }
     async for part in await AsyncClient().chat(
-        model="llama3", messages=[message], stream=True
+        model="llama3.2:3b", messages=[message], stream=True
     ):
         print(part["message"]["content"], end="", flush=True)
 
@@ -31,3 +31,4 @@ async def main():
 
 # Run the main function
 asyncio.run(main())
+
